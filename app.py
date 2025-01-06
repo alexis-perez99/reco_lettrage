@@ -50,10 +50,10 @@ def main():
         
         # Références pour le calcul de la similarité
         reference_texts = [
-            "république française carte nationale d'identité nom prénom sexe date de naissance lieu de naissance",  # Exemple CNI
-            "permis de conduire catégorie conducteur numéro date d'émission validité",  # Exemple Permis
-            "facture montant date fournisseur produit total",  # Exemple Facture
-            "carte vitale"
+            "nationale d'identité ",  # Exemple CNI
+            "permis de conduire catégorie conducteur",  # Exemple Permis
+            "facture montant fournisseur produit total",  # Exemple Facture
+            "vitale"
         ]
 
         # Détecter le type de document
